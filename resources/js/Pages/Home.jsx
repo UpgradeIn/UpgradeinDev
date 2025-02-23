@@ -7,6 +7,7 @@ import ServiceSection from "./Section/ServiceSection";
 import ChooseUsSection from "./Section/ChooseUsSection";
 import WhatsAppButton from "../Components/WhatsAppButton";
 import ProjectSection from "./Section/ProjectSection";
+import ContactSection from "./Section/ContactSection";
 
 const Home = () => {
     const [showButton, setShowButton] = useState(false);
@@ -40,6 +41,9 @@ const Home = () => {
 
             {/* Project Section */}
             <ProjectSection />
+
+            {/* Contact Section */}
+            <ContactSection />
 
             {/* WhatsApp Button */}
             {showButton && <WhatsAppButton />}

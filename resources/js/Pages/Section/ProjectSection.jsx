@@ -13,25 +13,25 @@ const ProjectSection = () => {
                         Project yang Sudah Kami Kerjakan
                     </h1>
                     <p className="max-w-lg text-md text-center text-gray-600">
-                        Kami menyediakan layanan terbaik untuk membantu
-                        mengembangkan bisnis Anda. Berikut adalah layanan yang
-                        kami tawarkan.
+                        Berikut adalah beberapa project yang sudah kami kerjakan
+                        sebelumnya. Kami selalu berusaha memberikan yang terbaik
+                        untuk setiap project yang kami kerjakan.
                     </p>
                 </div>
-                <div className="flex flex-wrap gap-y-8 lg:flex-row justify-center gap-x-7 items-center">
+                <div className="grid grid-cols-1 gap-10 justify-center md:grid-cols-2 lg:grid-cols-3">
                     {/* Item 1 */}
-                    <div className="group ">
-                        <div className="relative w-full rounded-[16px] overflow-hidden shadow-md sm:w-[360px] h-[220px]">
+                    <div className="group">
+                        <div className="relative w-full rounded-[16px] overflow-hidden shadow-md">
                             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 ease-in-out"></div>
                             <img
                                 src="/images/project-showcase/temp-track.png"
-                                alt=""
+                                alt="project-thumbnail"
                                 className="w-full h-full border-0 transition-all duration-300 ease-in-out group-hover:scale-105"
                             />
                             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
                                 <a
                                     href="#"
-                                    className="shadow-2xl shadow-[#09316E] hover:bg-indigo-950 hover:text-white bg-[#09316E] px-7 py-3 font-semibold rounded-full text-white text-base"
+                                    className="shadow-2xl shadow-[#09316E] hover:bg-blue-900 hover:text-white bg-[#09316E] px-7 py-3 font-semibold rounded-full text-white text-base"
                                 >
                                     Lihat Detail
                                 </a>
@@ -44,17 +44,17 @@ const ProjectSection = () => {
 
                     {/* Item 2 */}
                     <div className="group ">
-                        <div className="relative w-full rounded-[16px] overflow-hidden shadow-md sm:w-[360px] h-[220px]">
+                        <div className="relative w-full rounded-[16px] overflow-hidden shadow-md">
                             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 ease-in-out"></div>
                             <img
                                 src="/images/project-showcase/super-apps-tempel.png"
-                                alt=""
+                                alt="project-thumbnail"
                                 className="w-full h-full border-0 transition-all duration-300 ease-in-out group-hover:scale-105"
                             />
                             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
                                 <a
                                     href="#"
-                                    className="shadow-2xl shadow-[#09316E] hover:bg-indigo-950 hover:text-white bg-[#09316E] px-7 py-3 font-semibold rounded-full text-white text-base"
+                                    className="shadow-2xl shadow-[#09316E] hover:bg-blue-900 hover:text-white bg-[#09316E] px-7 py-3 font-semibold rounded-full text-white text-base"
                                 >
                                     Lihat Detail
                                 </a>
@@ -67,17 +67,17 @@ const ProjectSection = () => {
 
                     {/* Item 3 */}
                     <div className="group ">
-                        <div className="relative w-full rounded-[16px] overflow-hidden shadow-md sm:w-[360px] h-[220px]">
+                        <div className="relative w-full rounded-[16px] overflow-hidden shadow-md">
                             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 ease-in-out"></div>
                             <img
                                 src="/images/project-showcase/wms.png"
-                                alt=""
+                                alt="project-thumbnail"
                                 className="w-full h-full border-0 transition-all duration-300 ease-in-out group-hover:scale-105"
                             />
                             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
                                 <a
                                     href="#"
-                                    className="shadow-2xl shadow-[#09316E] hover:bg-indigo-950 hover:text-white bg-[#09316E] px-7 py-3 font-semibold rounded-full text-white text-base"
+                                    className="shadow-2xl shadow-[#09316E] hover:bg-blue-900 hover:text-white bg-[#09316E] px-7 py-3 font-semibold rounded-full text-white text-base"
                                 >
                                     Lihat Detail
                                 </a>
