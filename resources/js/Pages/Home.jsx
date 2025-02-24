@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Head } from "@inertiajs/react";
+import { Head, usePage } from "@inertiajs/react";
 import MainLayout from "../Layouts/MainLayout";
 import HeroSection from "./Section/HeroSection";
 import AboutSection from "./Section/AboutSection";
@@ -11,6 +11,9 @@ import ContactSection from "./Section/ContactSection";
 
 const Home = () => {
     const [showButton, setShowButton] = useState(false);
+
+    // 1. Tangkap data 'projects' dari usePage().props
+    const { projects } = usePage().props;
 
     useEffect(() => {
         const handleScroll = () => {
@@ -27,25 +30,16 @@ const Home = () => {
     return (
         <>
             <Head title="Landing Page" />
-            {/* Hero Section */}
             <HeroSection />
-
-            {/* About Section */}
             <AboutSection />
-
-            {/* Service Section */}
             <ServiceSection />
-
-            {/* Why Choose Upgradein */}
             <ChooseUsSection />
 
-            {/* Project Section */}
-            <ProjectSection />
+            {/* 2. Oper data "projects" ke ProjectSection */}
+            <ProjectSection projects={projects} />
 
-            {/* Contact Section */}
             <ContactSection />
 
-            {/* WhatsApp Button */}
             {showButton && <WhatsAppButton />}
         </>
     );

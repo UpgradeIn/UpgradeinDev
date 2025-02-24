@@ -17,7 +17,7 @@ const ContactSection = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center md:gap-10 lg:gap-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-10 lg:gap-16">
                     <div className="border border-gray-200 bg-white shadow-md p-6 rounded-lg">
                         <form className="space-y-4">
                             <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">

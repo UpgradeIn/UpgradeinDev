@@ -36,7 +36,7 @@ export default function Navbar() {
                 {/* Logo */}
                 <Link className="flex items-center" href="/">
                     <img
-                        src="images/full-logo.png"
+                        src="/images/full-logo.png"
                         alt="Logo"
                         className="h-8"
                     />
@@ -65,7 +65,15 @@ export default function Navbar() {
                 {/* Menu (Large Screen) */}
                 <div className="hidden sm:block flex-1">
                     <ul className="flex justify-end space-x-10">
-                        {["home", "about", "service", "project", "contact"].map(
+                        <li>
+                            <Link
+                                href="/"
+                                className="font-medium text-gray-800 hover:text-[#09316E] capitalize"
+                            >
+                                Home
+                            </Link>
+                        </li>
+                        {["about", "service", "project", "contact"].map(
                             (item, index) => (
                                 <li key={index}>
                                     <Link
