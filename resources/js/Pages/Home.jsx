@@ -12,7 +12,7 @@ import ContactSection from "./Section/ContactSection";
 const Home = () => {
     const [showButton, setShowButton] = useState(false);
 
-    // 1. Tangkap data 'projects' dari usePage().props
+    // Tangkap data 'projects' dari usePage().props
     const { projects } = usePage().props;
 
     useEffect(() => {

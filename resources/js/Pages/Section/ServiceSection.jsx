@@ -21,7 +21,7 @@ const ServiceSection = () => {
 
                 <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
                     {/* Item 1 */}
-                    <div className="border border-gray-200 rounded-lg shadow-md">
+                    <div className="border border-gray-200 rounded-lg shadow-md hover:shadow-lg">
                         <div className="relative flex items-center overflow-hidden">
                             <img
                                 className="w-36 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
@@ -45,7 +45,7 @@ const ServiceSection = () => {
                     </div>
 
                     {/* Item 2 */}
-                    <div className="border border-gray-200 rounded-lg shadow-md">
+                    <div className="border border-gray-200 rounded-lg shadow-md hover:shadow-lg">
                         <div className="relative flex items-center overflow-hidden">
                             <img
                                 className="w-36 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
@@ -69,7 +69,7 @@ const ServiceSection = () => {
                     </div>
 
                     {/* Item 3 */}
-                    <div className="border border-gray-200 rounded-lg shadow-md">
+                    <div className="border border-gray-200 rounded-lg shadow-md hover:shadow-lg">
                         <div className="relative flex items-center overflow-hidden">
                             <img
                                 className="w-36 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
@@ -92,7 +92,7 @@ const ServiceSection = () => {
                     </div>
 
                     {/* Item 4 */}
-                    <div className="border border-gray-200 rounded-lg shadow-md">
+                    <div className="border border-gray-200 rounded-lg shadow-md hover:shadow-lg">
                         <div className="relative flex items-center overflow-hidden">
                             <img
                                 className="w-36 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
