@@ -14,8 +14,7 @@ const ProjectSection = ({ projects = [] }) => {
                     </h1>
                     <p className="max-w-lg text-md text-center text-gray-600">
                         Berikut adalah beberapa project yang sudah kami kerjakan
-                        sebelumnya. Kami selalu berusaha memberikan yang terbaik
-                        untuk setiap project yang kami kerjakan.
+                        sebelumnya.
                     </p>
                 </div>
 

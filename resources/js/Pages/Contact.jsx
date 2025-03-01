@@ -6,7 +6,7 @@ import MainLayout from "../Layouts/MainLayout";
 const Contact = () => {
     return (
         <>
-            <Head title="Contact" />
+            <Head title="Upgradein - Hubungi Kami" />
             <div className="flex flex-col justify-center items-center pt-24 pb-10 px-5 lg:grid-cols-2 sm:px-10">
                 <div className="space-y-5 sm:space-y-10">
                     <div className="flex flex-col space-y-3">

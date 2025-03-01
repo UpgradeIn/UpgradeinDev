@@ -14,7 +14,7 @@ const Slider = () => {
             <div className="absolute top-0 left-0 w-full h-[50px] bg-gradient-to-b from-white to-transparent z-10"></div>
             <div className="absolute bottom-0 left-0 w-full h-[50px] bg-gradient-to-t from-white to-transparent z-10"></div>
 
-            <div className="grid grid-cols-3 gap-x-5 gap-y-5 w-full h-full sm:p-3 sm:grid-cols-4 relative">
+            <div className="grid grid-cols-3 gap-x-5 gap-y-5 w-full h-full sm:p-3 md:grid-cols-2 lg:grid-cols-4 relative">
                 {[...Array(4)].map((_, colIndex) => (
                     <motion.div
                         key={colIndex}

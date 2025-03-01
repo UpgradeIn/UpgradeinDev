@@ -6,7 +6,7 @@ import MainLayout from "../Layouts/MainLayout";
 const About = () => {
     return (
         <>
-            <Head title="About" />
+            <Head title="Upgradein - Tentang Kami" />
             <div className="grid grid-cols-1 justify-center items-center pt-24 gap-10 pb-10 px-5 lg:pb-0 lg:pt-0 lg:grid-cols-2 lg:min-h-screen lg:gap-20 sm:px-10">
                 <div>
                     <img

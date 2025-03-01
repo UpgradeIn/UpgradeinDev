@@ -16,7 +16,7 @@ const ChooseUsSection = () => {
                 <div className="absolute inset-0 bg-[#09316E] opacity-90"></div>
 
                 {/* Content */}
-                <div className="relative z-10 p-5 space-y-12 md:p-10 lg:p-20">
+                <div className="relative z-10 p-5 space-y-5 md:p-10 lg:p-20 sm:space-y-10">
                     {/* Tittle */}
                     <div className="flex flex-col items-center space-y-3">
                         <h3 className="text-[#E37915] font-semibold text-center text-sm md:text-md lg:text-lg">
@@ -34,7 +34,7 @@ const ChooseUsSection = () => {
                     </div>
 
                     {/* Content */}
-                    <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
+                    <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 sm:gap-12">
                         {/* List */}
                         <div className="flex flex-col space-y-5">
                             <div className="max-w-2xl mx-auto divide-y divide-gray-300">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@inertiajs/react";
 
 const Footer = () => {
     return (
@@ -28,74 +29,76 @@ const Footer = () => {
 
                         <div class="mt-3 grid space-y-3">
                             <p>
-                                <a
+                                <Link
                                     class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
                                     href="/"
                                 >
                                     Home
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a
+                                <Link
                                     class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
                                     href="/about"
                                 >
                                     About
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a
+                                <Link
                                     class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
                                     href="/service"
                                 >
                                     Service
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a
+                                <Link
                                     class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
                                     href="/project"
                                 >
                                     Project
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a
+                                <Link
                                     class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
                                     href="/contact"
                                 >
                                     Contact
-                                </a>
+                                </Link>
                             </p>
                         </div>
                     </div>
 
                     <div class="col-span-1">
-                        <h4 class="font-semibold text-gray-100">Resources</h4>
+                        <h4 class="font-semibold text-gray-100">
+                            Social Media
+                        </h4>
 
                         <div class="mt-3 grid space-y-3">
                             <p>
                                 <a
                                     class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                                    href="#"
+                                    href="https://www.instagram.com/upgradein.id/"
                                 >
-                                    Company
+                                    Instagram
                                 </a>
                             </p>
                             <p>
                                 <a
                                     class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                                    href="#"
+                                    href="https://www.tiktok.com/@upgradein.id?_t=ZS-8uK2xxZfy3L&_r=1"
                                 >
-                                    Docs
+                                    Tiktok
                                 </a>
                             </p>
                             <p>
                                 <a
                                     class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                                    href="#"
+                                    href="https://upgradein.id/"
                                 >
-                                    Customers
+                                    Other Service
                                 </a>
                             </p>
                         </div>

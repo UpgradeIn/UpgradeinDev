@@ -29,7 +29,7 @@ const Home = () => {
 
     return (
         <>
-            <Head title="Landing Page" />
+            <Head title="Upgradein - Jasa Pembuatan Website dan Aplikasi Terbaik" />
             <HeroSection />
             <AboutSection />
             <ServiceSection />

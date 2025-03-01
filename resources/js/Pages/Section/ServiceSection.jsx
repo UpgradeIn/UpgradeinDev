@@ -14,8 +14,7 @@ const ServiceSection = () => {
                     </h1>
                     <p className="max-w-lg text-md text-center text-gray-600">
                         Kami menyediakan layanan terbaik untuk membantu
-                        mengembangkan bisnis Anda. Berikut adalah layanan yang
-                        kami tawarkan.
+                        mengembangkan bisnis Anda.
                     </p>
                 </div>
 

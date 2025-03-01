@@ -4,7 +4,7 @@ import { Head } from "@inertiajs/react";
 const Service = () => {
     return (
         <>
-            <Head title="Service" />
+            <Head title="Upgradein - Layanan Terbaik Kami" />
             <div className="flex flex-col justify-center items-center pt-24 pb-10 px-5 lg:pb-0 lg:pt-0 lg:grid-cols-2 lg:min-h-screen sm:px-10">
                 <div className="space-y-5 sm:space-y-16">
                     <div className="flex flex-col items-center space-y-3">

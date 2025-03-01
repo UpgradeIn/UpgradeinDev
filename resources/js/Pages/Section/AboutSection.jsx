@@ -13,7 +13,7 @@ const AboutSection = () => {
                         />
                     </div>
 
-                    <div className="space-y-10">
+                    <div className="space-y-5 sm:space-y-10">
                         <div className="space-y-3">
                             <h3 className="text-[#E37915] font-semibold text-sm md:text-sm lg:text-md">
                                 ABOUT US
