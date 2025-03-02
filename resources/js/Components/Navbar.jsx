@@ -129,27 +129,24 @@ export default function Navbar() {
                         {/* Menu Items */}
                         <ul className="flex flex-col h-full justify-center items-center space-y-10">
                             <Link
-                                href={"/" + item}
+                                href="/"
                                 className="text-xl font-medium text-gray-800 hover:text-[#09316E] capitalize"
-                                onClick={toggleMenu}>
+                            >
                                 home
                             </Link>
-                            {[
-                                "about",
-                                "service",
-                                "project",
-                                "contact",
-                            ].map((item, index) => (
-                                <li key={index}>
-                                    <Link
-                                        href={"/" + item}
-                                        className="text-xl font-medium text-gray-800 hover:text-[#09316E] capitalize"
-                                        onClick={toggleMenu}
-                                    >
-                                        {item}
-                                    </Link>
-                                </li>
-                            ))}
+                            {["about", "service", "project", "contact"].map(
+                                (item, index) => (
+                                    <li key={index}>
+                                        <Link
+                                            href={"/" + item}
+                                            className="text-xl font-medium text-gray-800 hover:text-[#09316E] capitalize"
+                                            onClick={toggleMenu}
+                                        >
+                                            {item}
+                                        </Link>
+                                    </li>
+                                )
+                            )}
                         </ul>
                     </motion.div>
                 )}
