@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutSection = () => {
     return (
         <section id="about" className="bg-[#F4F6FF]">

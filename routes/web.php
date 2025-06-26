@@ -25,6 +25,10 @@ Route::get('/contact', function () {
     return Inertia::render('Contact');
 });
 
+Route::get('/pricing', function () {
+    return Inertia::render('Pricing');
+});
+
 Route::get('/detail-project', function () {
     return Inertia::render('DetailProject');
 });

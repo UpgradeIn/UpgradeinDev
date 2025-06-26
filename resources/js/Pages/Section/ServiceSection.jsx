@@ -1,5 +1,3 @@
-import React from "react";
-
 const ServiceSection = () => {
     return (
         <div className="px-5 py-10 lg:py-20 sm:px-10">

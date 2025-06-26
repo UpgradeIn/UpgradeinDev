@@ -8,6 +8,7 @@ import ChooseUsSection from "./Section/ChooseUsSection";
 import WhatsAppButton from "../Components/WhatsAppButton";
 import ProjectSection from "./Section/ProjectSection";
 import ContactSection from "./Section/ContactSection";
+import PricingSection from "./Section/PricingSection";
 
 const Home = () => {
     const [showButton, setShowButton] = useState(false);
@@ -34,11 +35,8 @@ const Home = () => {
             <AboutSection />
             <ServiceSection />
             <ChooseUsSection />
-
-            {/* 2. Oper data "projects" ke ProjectSection */}
             <ProjectSection projects={projects} />
-
-            <ContactSection />
+            <PricingSection />
 
             {showButton && <WhatsAppButton />}
         </>

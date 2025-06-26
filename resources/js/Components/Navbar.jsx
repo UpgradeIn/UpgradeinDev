@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "@inertiajs/react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -73,18 +73,22 @@ export default function Navbar() {
                                 Home
                             </Link>
                         </li>
-                        {["about", "service", "project", "contact"].map(
-                            (item, index) => (
-                                <li key={index}>
-                                    <Link
-                                        href={"/" + item}
-                                        className="font-medium text-gray-800 hover:text-[#09316E] capitalize"
-                                    >
-                                        {item}
-                                    </Link>
-                                </li>
-                            )
-                        )}
+                        {[
+                            "about",
+                            "service",
+                            "project",
+                            "pricing",
+                            "contact",
+                        ].map((item, index) => (
+                            <li key={index}>
+                                <Link
+                                    href={"/" + item}
+                                    className="font-medium text-gray-800 hover:text-[#09316E] capitalize"
+                                >
+                                    {item}
+                                </Link>
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>
@@ -134,19 +138,23 @@ export default function Navbar() {
                             >
                                 home
                             </Link>
-                            {["about", "service", "project", "contact"].map(
-                                (item, index) => (
-                                    <li key={index}>
-                                        <Link
-                                            href={"/" + item}
-                                            className="text-xl font-medium text-gray-800 hover:text-[#09316E] capitalize"
-                                            onClick={toggleMenu}
-                                        >
-                                            {item}
-                                        </Link>
-                                    </li>
-                                )
-                            )}
+                            {[
+                                "about",
+                                "service",
+                                "project",
+                                "pricing",
+                                "contact",
+                            ].map((item, index) => (
+                                <li key={index}>
+                                    <Link
+                                        href={"/" + item}
+                                        className="text-xl font-medium text-gray-800 hover:text-[#09316E] capitalize"
+                                        onClick={toggleMenu}
+                                    >
+                                        {item}
+                                    </Link>
+                                </li>
+                            ))}
                         </ul>
                     </motion.div>
                 )}
